@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: cebollin
+Version: 0.1.0
+Summary: Backend for the Cebollin agricultural mobile app.
+Author-email: Adrian Melgar <daikimt@outlook.es>
+Requires-Python: >=3.11
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: SQLAlchemy[asyncio]
+Requires-Dist: alembic
+Requires-Dist: psycopg[binary]
+Requires-Dist: pydantic-settings
+Requires-Dist: pydantic[email]
+Requires-Dist: python-dotenv
+Requires-Dist: httpx
+Requires-Dist: python-multipart
+Requires-Dist: google-generativeai
+Requires-Dist: boto3

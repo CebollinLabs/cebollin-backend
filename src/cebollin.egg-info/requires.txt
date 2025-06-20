@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+SQLAlchemy[asyncio]
+alembic
+psycopg[binary]
+pydantic-settings
+pydantic[email]
+python-dotenv
+httpx
+python-multipart
+google-generativeai
+boto3

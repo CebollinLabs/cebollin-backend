@@ -1,0 +1,16 @@
+# Git
+.git
+.gitignore
+
+# Python virtual environment & cache
+.venv/
+*.pyc
+__pycache__/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.DS_Store
+
+# Alembic cache
+alembic/versions/__pycache__/

@@ -1,0 +1,20 @@
+# Git
+.git
+.gitignore
+
+# Python virtual environment & cache
+.venv/
+*.pyc
+__pycache__/
+*.egg-info/  # <--- Add this line or a similar one
+
+# IDE and OS files
+.idea/
+.vscode/
+*.DS_Store
+
+# Local secrets and environment files
+.env
+
+# Alembic cache
+alembic/versions/__pycache__/

@@ -1,0 +1,27 @@
+[project]
+name = "cebollin"
+version = "0.1.0"
+description = "Backend for the Cebollin agricultural mobile app."
+authors = [{ name = "Adrian Melgar", email = "daikimt@outlook.es" }]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "SQLAlchemy[asyncio]",
+    "alembic",
+    "psycopg[binary]",
+    "pydantic-settings",
+    "pydantic[email]",
+    "python-dotenv",
+    "httpx",
+    "python-multipart",
+    "google-generativeai",
+    "boto3",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
