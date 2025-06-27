@@ -10,3 +10,9 @@ httpx
 python-multipart
 google-generativeai
 boto3
+
+[test]
+pytest
+pytest-cov
+httpx
+python-dotenv

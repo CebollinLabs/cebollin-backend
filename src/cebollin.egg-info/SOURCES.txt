@@ -1,3 +1,4 @@
+README.md
 pyproject.toml
 src/cebollin/__init__.py
 src/cebollin.egg-info/PKG-INFO
@@ -25,5 +26,7 @@ src/cebollin/presentation/auth.py
 src/cebollin/presentation/container.py
 src/cebollin/presentation/main.py
 src/cebollin/presentation/api/v1/diagnosis_router.py
+src/cebollin/presentation/api/v1/plots_router.py
+src/cebollin/presentation/api/v1/test_users_router.py
 src/cebollin/presentation/api/v1/treatment_router.py
 src/cebollin/presentation/api/v1/users_router.py
