@@ -51,11 +51,7 @@ class Settings(BaseSettings):
 
     GEMINI_API_KEY: str
 
-    # S3 / AWS
     S3_BUCKET_NAME: str
-    AWS_ACCESS_KEY_ID: str | None = None
-    AWS_SECRET_ACCESS_KEY: str | None = None
-    AWS_DEFAULT_REGION: str = "us-east-1"
 
     MODEL_API_BASE_URL: str
 
